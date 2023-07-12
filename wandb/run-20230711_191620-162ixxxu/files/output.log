@@ -1,0 +1,32 @@
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz to ./MNIST/raw/train-images-idx3-ubyte.gz
+
+100%|████████████████████████████| 9912422/9912422 [00:02<00:00, 3541746.73it/s]
+Extracting ./MNIST/raw/train-images-idx3-ubyte.gz to ./MNIST/raw
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz
+  0%|                                                 | 0/28881 [00:00<?, ?it/s]
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz to ./MNIST/raw/train-labels-idx1-ubyte.gz
+Extracting ./MNIST/raw/train-labels-idx1-ubyte.gz to ./MNIST/raw
+
+100%|█████████████████████████████████| 28881/28881 [00:00<00:00, 118175.52it/s]
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz to ./MNIST/raw/t10k-images-idx3-ubyte.gz
+100%|████████████████████████████| 1648877/1648877 [00:01<00:00, 1180107.50it/s]
+Extracting ./MNIST/raw/t10k-images-idx3-ubyte.gz to ./MNIST/raw
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz to ./MNIST/raw/t10k-labels-idx1-ubyte.gz
+100%|██████████████████████████████████| 4542/4542 [00:00<00:00, 1777267.35it/s]
+Widget Javascript not detected.  It may not be installed or enabled properly. Reconnecting the current kernel may help.
+Extracting ./MNIST/raw/t10k-labels-idx1-ubyte.gz to ./MNIST/raw
+ConvNet(
+  (layer1): Sequential(
+    (0): Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (layer2): Sequential(
+    (0): Conv2d(16, 32, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (fc): Linear(in_features=1568, out_features=10, bias=True)
+)

@@ -1,0 +1,41 @@
+ConvNet(
+  (layer1): Sequential(
+    (0): Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (layer2): Sequential(
+    (0): Conv2d(16, 32, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (fc): Linear(in_features=1568, out_features=10, bias=True)
+)
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+Loss after 03072 examples: 0.335
+Loss after 06272 examples: 0.291
+Loss after 09472 examples: 0.130
+
+ 20%|█████████                                    | 1/5 [00:12<00:51, 12.97s/it]
+Loss after 15840 examples: 0.079
+Loss after 19040 examples: 0.167
+Loss after 22240 examples: 0.107
+
+ 40%|██████████████████                           | 2/5 [00:22<00:32, 10.79s/it]
+Loss after 28608 examples: 0.053
+Loss after 31808 examples: 0.044
+Loss after 35008 examples: 0.027
+
+ 60%|███████████████████████████                  | 3/5 [00:29<00:18,  9.33s/it]
+Loss after 41376 examples: 0.035
+Loss after 44576 examples: 0.073
+Loss after 47776 examples: 0.054
+
+ 80%|████████████████████████████████████         | 4/5 [00:37<00:08,  8.83s/it]
+Loss after 54144 examples: 0.025
+
+100%|█████████████████████████████████████████████| 5/5 [00:45<00:00,  8.34s/it]
+Accuracy of the model on the 2000 test images: 97.900000%
+============== Diagnostic Run torch.onnx.export version 2.0.1+cpu ==============
+verbose: False, log level: Level.ERROR
+======================= 0 NONE 0 NOTE 0 WARNING 0 ERROR ========================

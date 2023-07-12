@@ -1,0 +1,40 @@
+2023-07-11 19:44:36,808 INFO    MainThread:27976 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-11 19:44:36,808 INFO    MainThread:27976 [wandb_setup.py:_flush():76] Configure stats pid to 27976
+2023-07-11 19:44:36,808 INFO    MainThread:27976 [wandb_setup.py:_flush():76] Loading settings from /home/mission1/.config/wandb/settings
+2023-07-11 19:44:36,808 INFO    MainThread:27976 [wandb_setup.py:_flush():76] Loading settings from /home/mission1/PROJECTS/wieghtand bias/wandb/settings
+2023-07-11 19:44:36,808 INFO    MainThread:27976 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-11 19:44:36,808 INFO    MainThread:27976 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-11 19:44:36,808 INFO    MainThread:27976 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-07-11 19:44:36,808 INFO    MainThread:27976 [wandb_init.py:_log_setup():507] Logging user logs to /home/mission1/PROJECTS/wieghtand bias/wandb/run-20230711_194436-x2ahjfo8/logs/debug.log
+2023-07-11 19:44:36,808 INFO    MainThread:27976 [wandb_init.py:_log_setup():508] Logging internal logs to /home/mission1/PROJECTS/wieghtand bias/wandb/run-20230711_194436-x2ahjfo8/logs/debug-internal.log
+2023-07-11 19:44:36,808 INFO    MainThread:27976 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f1cdd20e800>
+2023-07-11 19:44:36,809 INFO    MainThread:27976 [wandb_init.py:init():547] calling init triggers
+2023-07-11 19:44:36,809 INFO    MainThread:27976 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'epochs': 5, 'classes': 10, 'kernels': [16, 32], 'batch_size': 128, 'learning_rate': 0.005, 'dataset': 'MNIST', 'architecture': 'CNN'}
+2023-07-11 19:44:36,809 INFO    MainThread:27976 [wandb_init.py:init():596] starting backend
+2023-07-11 19:44:36,809 INFO    MainThread:27976 [wandb_init.py:init():600] setting up manager
+2023-07-11 19:44:36,813 INFO    MainThread:27976 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-11 19:44:36,815 INFO    MainThread:27976 [wandb_init.py:init():606] backend started and connected
+2023-07-11 19:44:36,837 INFO    MainThread:27976 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-11 19:44:36,838 INFO    MainThread:27976 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-11 19:44:36,838 INFO    MainThread:27976 [wandb_init.py:init():705] updated telemetry
+2023-07-11 19:44:36,839 INFO    MainThread:27976 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-11 19:44:38,662 INFO    MainThread:27976 [wandb_run.py:_on_init():2173] communicating current version
+2023-07-11 19:44:38,978 INFO    MainThread:27976 [wandb_run.py:_on_init():2182] got version response 
+2023-07-11 19:44:38,978 INFO    MainThread:27976 [wandb_init.py:init():789] starting run threads in backend
+2023-07-11 19:44:39,024 INFO    MainThread:27976 [wandb_run.py:_console_start():2152] atexit reg
+2023-07-11 19:44:39,024 INFO    MainThread:27976 [wandb_run.py:_redirect():2007] redirect: SettingsConsole.WRAP_RAW
+2023-07-11 19:44:39,024 INFO    MainThread:27976 [wandb_run.py:_redirect():2072] Wrapping output streams.
+2023-07-11 19:44:39,024 INFO    MainThread:27976 [wandb_run.py:_redirect():2097] Redirects installed.
+2023-07-11 19:44:39,026 INFO    MainThread:27976 [wandb_init.py:init():830] run started, returning control to user process
+2023-07-11 19:44:39,177 INFO    MainThread:27976 [wandb_watch.py:watch():51] Watching
+2023-07-11 19:44:39,210 INFO    MainThread:27976 [wandb_run.py:_finish():1887] finishing run sarathimanikandan/pytorch-demo/x2ahjfo8
+2023-07-11 19:44:39,210 INFO    MainThread:27976 [jupyter.py:save_history():445] not saving jupyter history
+2023-07-11 19:44:39,210 INFO    MainThread:27976 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-11 19:44:39,210 INFO    MainThread:27976 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2023-07-11 19:44:39,210 INFO    MainThread:27976 [wandb_run.py:_atexit_cleanup():2121] got exitcode: 1
+2023-07-11 19:44:39,211 INFO    MainThread:27976 [wandb_run.py:_restore():2104] restore
+2023-07-11 19:44:39,211 INFO    MainThread:27976 [wandb_run.py:_restore():2110] restore done
+2023-07-11 19:44:47,411 INFO    MainThread:27976 [wandb_run.py:_footer_history_summary_info():3464] rendering history
+2023-07-11 19:44:47,411 INFO    MainThread:27976 [wandb_run.py:_footer_history_summary_info():3496] rendering summary
+2023-07-11 19:44:47,416 INFO    MainThread:27976 [wandb_run.py:_footer_sync_info():3423] logging synced files

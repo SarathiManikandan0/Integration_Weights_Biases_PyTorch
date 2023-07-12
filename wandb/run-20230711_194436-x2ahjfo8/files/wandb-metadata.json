@@ -1,0 +1,51 @@
+{
+    "os": "Linux-5.19.0-46-generic-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-07-11T14:14:38.998142",
+    "startedAt": "2023-07-11T14:14:36.806190",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "PROJECTS/wieghtand bias/Untitled.ipynb",
+    "root": "/home/mission1",
+    "host": "sarathim-HP-Laptop-15s-fr2xxx",
+    "username": "mission1",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 1298.0575,
+        "min": 400.0,
+        "max": 4100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1292.23,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1300.006,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1300.0,
+            "min": 400.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1299.994,
+            "min": 400.0,
+            "max": 4100.0
+        }
+    ],
+    "disk": {
+        "total": 279.8543395996094,
+        "used": 140.45520401000977
+    },
+    "memory": {
+        "total": 7.404254913330078
+    }
+}
